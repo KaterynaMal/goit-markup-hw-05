@@ -872,6 +872,28 @@ align-items: center;
     color: rgba(46, 47, 66, 0.40);
 }
 
+.label-checkbox {
+  margin-bottom: 24px;
+}
+
+.modal-checkbox {
+  margin-right: 8px;
+}
+
+.checkmark-box {
+  display: block;
+  width: 16px;
+  height: 16px;
+  justify-content: center;
+  border: 1px solid rgba(46, 47, 66, 0.40);
+  
+  background-color: var(--secondary-background-color);
+}
+
+.privacy-policy {
+  color: var(--main-blue-color);
+}
+
 .modal-form-btn {
   font-family: inherit;
     display: flex;
