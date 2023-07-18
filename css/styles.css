@@ -881,13 +881,31 @@ align-items: center;
 }
 
 .checkmark-box {
-  display: block;
+  display: flex;
   width: 16px;
   height: 16px;
   justify-content: center;
+  align-items: center;
   border: 1px solid rgba(46, 47, 66, 0.40);
+  border-radius: 2px;
   
-  background-color: var(--secondary-background-color);
+}
+
+.checkmark-box:active .checkmark,
+.checkmark-box:hover .checkmark,
+.checkmark-box:focus .checkmark {
+fill: var(--curent-accent-color);
+}
+
+.checkmark {
+  fill:var(--secondary-background-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkmark-container {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
 }
 
 .privacy-policy {
