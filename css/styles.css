@@ -647,7 +647,7 @@ footer .social-icons-link:focus {
 font-family: inherit;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 padding-left: 16px;
-  max-width: 264px;
+  width: 264px;
   height: 40px;
   border-radius: 4px;
   border: 1px solid var(--primary-white-color);
@@ -830,7 +830,7 @@ align-items: center;
 }
 
 .modal-input:focus {
-  border-color: var(--curent-accent-color);
+  border-color: var(--main-blue-color);
   
 }
 
@@ -853,7 +853,7 @@ align-items: center;
 
 
 .modal-input:focus + .modal-form-icon {
-  fill: var(--curent-accent-color);
+  fill: var(--main-blue-color);
 }
 
 .textarea-container {
@@ -877,7 +877,7 @@ align-items: center;
 }
 
 .modal-textarea:focus {
-  border-color: var(--curent-accent-color);
+  border-color: var(--main-blue-color);
 }
 
 .modal-textarea::placeholder {
@@ -911,7 +911,7 @@ align-items: center;
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
-.modal-checkbox:checked .checkbox-span {
+.modal-checkbox:checked + .checkbox-span {
   background-color: var(--curent-accent-color);
   border: none;
   fill: var(--footer-address-text-color);
