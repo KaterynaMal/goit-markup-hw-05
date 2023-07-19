@@ -618,6 +618,7 @@ footer .social-icons-link:focus {
 }
 
 /*-------- form ------*/
+
 .footer-form-container {
   display: block;
 }
@@ -627,17 +628,7 @@ footer .social-icons-link:focus {
     flex-direction: row;
     gap: 24px;
     justify-content: center;
-  
 }
-
-/*.form-label {
-  gap: 16px;
-  display: flex;
-    flex-direction: column;
-    color: var(--primary-white-color);
-    
-    
-}*/
 
 .form-input {
   font-size: 12px;
@@ -777,22 +768,6 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
 
 /*--- modal form---*/
 
-/*.modal p {
-margin: 72px 24px 16px 24px;
-align-items: center;
-}*/
-
-/*.modal-form {
-  position: absolute;
-  
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-    gap: 8px;
-   
-  
-}*/
-
 .modal-title {
   margin-bottom: 16px;
   color: var(--title-text-color);
@@ -807,7 +782,7 @@ align-items: center;
 
 .modal-label {
   display: block;
-  /*flex-direction: column;*/
+ 
   font-family: inherit;
   margin-bottom: 4px;
   font-size: 12px;
@@ -833,11 +808,6 @@ align-items: center;
   border-color: var(--main-blue-color);
   
 }
-
-/*.modal-form-icon {
-  position: absolute;
-  transform: translateY(100%);
-}*/
 
 .input-icon-container {
   position: relative;
@@ -911,22 +881,11 @@ align-items: center;
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
-.modal-checkbox:checked + .checkbox-span {
+.modal-checkbox:checked + .label-checkbox > .checkbox-span {
   background-color: var(--curent-accent-color);
   border: none;
   fill: var(--footer-address-text-color);
 }
-
-/*.checkmark-box:active .checkmark,
-.checkmark-box:hover .checkmark,
-.checkmark-box:focus .checkmark {
-fill: var(--curent-accent-color);
-}*/
-
-/*.checkmark {
-  fill:var(--secondary-background-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}*/
 
 .checkmark-container {
   display: flex;
